@@ -110,6 +110,29 @@
          <item row="5" column="1">
           <widget class="ctkDirectoryButton" name="OutputSphereDirectory"/>
          </item>
+
+         <item row="6" column="0">
+            <widget class="QLabel">
+                <property name="text">
+                    <string>Do Procrustes Post-processing</string>
+                </property>
+            </widget>
+         </item>
+         <item row="6" column="1">
+            <widget class="QCheckBox" name="ProcrustesCheckBox"/>
+         </item>
+
+         <item row="7" column="0">
+          <widget class="QLabel">
+           <property name="text">
+            <string>Procrustes Spheres Directory</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="ctkDirectoryButton" name="ProcrustesOutputDirectory"/>
+         </item>
+
         </layout>
        </widget>
       </item>
